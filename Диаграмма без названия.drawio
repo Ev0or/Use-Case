@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T11:03:05.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gfO0gjQqGS2PzhE6CMz0" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-28T11:11:40.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SKEEmWAe72eRGP3qt6BU" version="20.7.4" type="github" pages="6">
   <diagram id="YvuUdEbvJ-dO5YptzvHO" name="на листочке">
     <mxGraphModel dx="1674" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -604,10 +604,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tpwrknpu7RaP4_fhgrqw" name="Страница 6">
-    <mxGraphModel dx="1674" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-3" value="Клиент" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LKVZ1dIpGZlCoN5-h95u-2" target="LKVZ1dIpGZlCoN5-h95u-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="140" as="sourcePoint" />
+            <mxPoint x="120" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LKVZ1dIpGZlCoN5-h95u-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-6" value="просмотр списка&amp;nbsp;&lt;br&gt;товаров&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-7" value="Изменение содержание корзины&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="175" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="LKVZ1dIpGZlCoN5-h95u-10">
+          <mxGeometry x="-1" y="-76" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.82999999999998" y="225" as="sourcePoint" />
+            <mxPoint x="174.82999999999998" y="285" as="targetPoint" />
+            <mxPoint x="6" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-10" value="Оформление товара на&amp;nbsp;&lt;br&gt;покупку товара&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="270" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-11" value="Оплата выбранного товара&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-12" value="Предоставление квитанции об оплате&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-13" value="Обработанный заказ передается курьеру&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKVZ1dIpGZlCoN5-h95u-14" value="Заказ доставляется&lt;br&gt;клиенту&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="525" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
